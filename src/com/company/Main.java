@@ -80,7 +80,7 @@ public class Main {
             }
             courseName = scanner.next();
 
-            //Find course in courses array and add student to this course.
+            //Find course in courses array and add teacher to this course.
             for(int i = 0; i < courseList.size(); i++){
                 if((courseList.get(i).name).equals(courseName)){
                     course.addTeacher(courseList.get(i), teacher);
